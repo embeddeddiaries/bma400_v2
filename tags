@@ -1,0 +1,151 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BMA400_ACC_CHANNEL	bma400_core.c	177;"	d	file:
+BMA400_ACC_CONFIG0_REG	bma400.h	60;"	d
+BMA400_ACC_CONFIG1_REG	bma400.h	61;"	d
+BMA400_ACC_CONFIG2_REG	bma400.h	62;"	d
+BMA400_ACC_ODR_LP_RAW	bma400.h	87;"	d
+BMA400_ACC_ODR_MASK	bma400.h	83;"	d
+BMA400_ACC_ODR_MAX_HZ	bma400.h	90;"	d
+BMA400_ACC_ODR_MAX_RAW	bma400.h	88;"	d
+BMA400_ACC_ODR_MIN_HZ	bma400.h	92;"	d
+BMA400_ACC_ODR_MIN_RAW	bma400.h	86;"	d
+BMA400_ACC_ODR_MIN_WHOLE_HZ	bma400.h	91;"	d
+BMA400_ACC_SCALE_MASK	bma400.h	84;"	d
+BMA400_CHIP_ID_REG	bma400.h	20;"	d
+BMA400_CMD_REG	bma400.h	63;"	d
+BMA400_ERR_REG	bma400.h	21;"	d
+BMA400_EVENT_REG	bma400.h	38;"	d
+BMA400_FIFO_DATA_REG	bma400.h	49;"	d
+BMA400_FIFO_LENGTH0_REG	bma400.h	47;"	d
+BMA400_FIFO_LENGTH1_REG	bma400.h	48;"	d
+BMA400_ID_REG_VAL	bma400.h	74;"	d
+BMA400_INT12_MAP_REG	bma400.h	69;"	d
+BMA400_INT1_MAP_REG	bma400.h	68;"	d
+BMA400_INT_CONFIG0_REG	bma400.h	66;"	d
+BMA400_INT_CONFIG1_REG	bma400.h	67;"	d
+BMA400_INT_DRDY_MSK	bma400.h	71;"	d
+BMA400_INT_IO_CTRL_REG	bma400.h	70;"	d
+BMA400_INT_STAT0_REG	bma400.h	39;"	d
+BMA400_INT_STAT1_REG	bma400.h	40;"	d
+BMA400_INT_STAT2_REG	bma400.h	41;"	d
+BMA400_LP_OSR_MASK	bma400.h	81;"	d
+BMA400_LP_OSR_SHIFT	bma400.h	76;"	d
+BMA400_MAX_SPI_READ	bma400_spi.c	17;"	d	file:
+BMA400_NP_OSR_MASK	bma400.h	82;"	d
+BMA400_NP_OSR_SHIFT	bma400.h	77;"	d
+BMA400_NUM_REGULATORS	bma400.h	97;"	d
+BMA400_SCALE_MAX	bma400.h	95;"	d
+BMA400_SCALE_MIN	bma400.h	94;"	d
+BMA400_SCALE_SHIFT	bma400.h	78;"	d
+BMA400_SENSOR_TIME0	bma400.h	33;"	d
+BMA400_SENSOR_TIME1	bma400.h	34;"	d
+BMA400_SENSOR_TIME2	bma400.h	35;"	d
+BMA400_SPI_READ_BUFFER_SIZE	bma400_spi.c	18;"	d	file:
+BMA400_STATUS_REG	bma400.h	22;"	d
+BMA400_STEP_CNT0_REG	bma400.h	52;"	d
+BMA400_STEP_CNT1_REG	bma400.h	53;"	d
+BMA400_STEP_CNT3_REG	bma400.h	54;"	d
+BMA400_STEP_INT_MSK	bma400.h	56;"	d
+BMA400_STEP_STAT_REG	bma400.h	55;"	d
+BMA400_TEMP_DATA_REG	bma400.h	44;"	d
+BMA400_TWO_BITS_MASK	bma400.h	80;"	d
+BMA400_VDDIO_REGULATOR	bma400.h	99;"	d
+BMA400_VDD_REGULATOR	bma400.h	98;"	d
+BMA400_X_AXIS_LSB_REG	bma400.h	25;"	d
+BMA400_X_AXIS_MSB_REG	bma400.h	26;"	d
+BMA400_Y_AXIS_LSB_REG	bma400.h	27;"	d
+BMA400_Y_AXIS_MSB_REG	bma400.h	28;"	d
+BMA400_Z_AXIS_LSB_REG	bma400.h	29;"	d
+BMA400_Z_AXIS_MSB_REG	bma400.h	30;"	d
+INCLUDE_VERMAGIC	bma400_core.mod.c	2;"	d	file:
+INCLUDE_VERMAGIC	bma400_i2c.mod.c	2;"	d	file:
+INCLUDE_VERMAGIC	bma400_spi.mod.c	2;"	d	file:
+KERNEL_SRC	Makefile	/^KERNEL_SRC := \/home\/jaggu\/workspace\/upstream_iio_tree\/raspberry_pi\/kernel_rpi$/;"	m
+POWER_MODE_INVALID	bma400_core.c	/^	POWER_MODE_INVALID = 0x03,$/;"	e	enum:bma400_power_mode	file:
+POWER_MODE_LOW	bma400_core.c	/^	POWER_MODE_LOW     = 0x01,$/;"	e	enum:bma400_power_mode	file:
+POWER_MODE_NORMAL	bma400_core.c	/^	POWER_MODE_NORMAL  = 0x02,$/;"	e	enum:bma400_power_mode	file:
+POWER_MODE_SLEEP	bma400_core.c	/^	POWER_MODE_SLEEP   = 0x00,$/;"	e	enum:bma400_power_mode	file:
+SRC	Makefile	/^SRC := $(shell pwd)$/;"	m
+_BMA400_H_	bma400.h	10;"	d
+bma400_accel_get_mount_matrix	bma400_core.c	/^bma400_accel_get_mount_matrix(const struct iio_dev *indio_dev,$/;"	f	file:
+bma400_accel_scale_to_raw	bma400_core.c	/^static int bma400_accel_scale_to_raw(struct bma400_data *data,$/;"	f	file:
+bma400_channels	bma400_core.c	/^static const struct iio_chan_spec bma400_channels[] = {$/;"	v	typeref:struct:iio_chan_spec	file:
+bma400_data	bma400_core.c	/^struct bma400_data {$/;"	s	file:
+bma400_data_rdy_trigger_set_state	bma400_core.c	/^static int bma400_data_rdy_trigger_set_state(struct iio_trigger *trig,$/;"	f	file:
+bma400_disable	bma400_core.c	/^static void bma400_disable(void *data_ptr)$/;"	f	file:
+bma400_drdy	bma400_core.c	/^static int bma400_drdy(struct bma400_data *data)$/;"	f	file:
+bma400_event_handler	bma400_core.c	/^static irqreturn_t bma400_event_handler(int irq, void *private)$/;"	f	file:
+bma400_ext_info	bma400_core.c	/^static const struct iio_chan_spec_ext_info bma400_ext_info[] = {$/;"	v	typeref:struct:iio_chan_spec_ext_info	file:
+bma400_get_accel_output_data_rate	bma400_core.c	/^static int bma400_get_accel_output_data_rate(struct bma400_data *data)$/;"	f	file:
+bma400_get_accel_oversampling_ratio	bma400_core.c	/^static int bma400_get_accel_oversampling_ratio(struct bma400_data *data)$/;"	f	file:
+bma400_get_accel_reg	bma400_core.c	/^static int bma400_get_accel_reg(struct bma400_data *data,$/;"	f	file:
+bma400_get_accel_scale	bma400_core.c	/^static int bma400_get_accel_scale(struct bma400_data *data)$/;"	f	file:
+bma400_get_power_mode	bma400_core.c	/^static int bma400_get_power_mode(struct bma400_data *data)$/;"	f	file:
+bma400_get_temp_reg	bma400_core.c	/^static int bma400_get_temp_reg(struct bma400_data *data, int *val, int *val2)$/;"	f	file:
+bma400_i2c_driver	bma400_i2c.c	/^module_i2c_driver(bma400_i2c_driver);$/;"	v
+bma400_i2c_driver	bma400_i2c.c	/^static struct i2c_driver bma400_i2c_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+bma400_i2c_ids	bma400_i2c.c	/^static const struct i2c_device_id bma400_i2c_ids[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+bma400_i2c_probe	bma400_i2c.c	/^static int bma400_i2c_probe(struct i2c_client *client,$/;"	f	file:
+bma400_info	bma400_core.c	/^static const struct iio_info bma400_info = {$/;"	v	typeref:struct:iio_info	file:
+bma400_init	bma400_core.c	/^static int bma400_init(struct bma400_data *data)$/;"	f	file:
+bma400_init_tables	bma400_core.c	/^static void bma400_init_tables(void)$/;"	f	file:
+bma400_int_drdy_config	bma400_core.c	/^static int bma400_int_drdy_config(struct bma400_data *data)$/;"	f	file:
+bma400_irq_handler	bma400_core.c	/^static irqreturn_t bma400_irq_handler(int irq, void *private)$/;"	f	file:
+bma400_is_volatile_reg	bma400_core.c	/^static bool bma400_is_volatile_reg(struct device *dev, unsigned int reg)$/;"	f	file:
+bma400_is_writable_reg	bma400_core.c	/^static bool bma400_is_writable_reg(struct device *dev, unsigned int reg)$/;"	f	file:
+bma400_of_i2c_match	bma400_i2c.c	/^static const struct of_device_id bma400_of_i2c_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+bma400_of_spi_match	bma400_spi.c	/^static const struct of_device_id bma400_of_spi_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+bma400_osr_range	bma400_core.c	/^static const int bma400_osr_range[] = { 0, 1, 3 };$/;"	v	file:
+bma400_output_data_rate_from_raw	bma400_core.c	/^static void bma400_output_data_rate_from_raw(int raw, unsigned int *val,$/;"	f	file:
+bma400_power_mode	bma400_core.c	/^enum bma400_power_mode {$/;"	g	file:
+bma400_probe	bma400_core.c	/^EXPORT_SYMBOL(bma400_probe);$/;"	v
+bma400_probe	bma400_core.c	/^int bma400_probe(struct device *dev, struct regmap *regmap, int irq, const char *name)$/;"	f
+bma400_read_avail	bma400_core.c	/^static int bma400_read_avail(struct iio_dev *indio_dev,$/;"	f	file:
+bma400_read_raw	bma400_core.c	/^static int bma400_read_raw(struct iio_dev *indio_dev,$/;"	f	file:
+bma400_regmap_bus	bma400_spi.c	/^static struct regmap_bus bma400_regmap_bus = {$/;"	v	typeref:struct:regmap_bus	file:
+bma400_regmap_config	bma400_core.c	/^EXPORT_SYMBOL(bma400_regmap_config);$/;"	v
+bma400_regmap_config	bma400_core.c	/^const struct regmap_config bma400_regmap_config = {$/;"	v	typeref:struct:regmap_config
+bma400_regmap_spi_read	bma400_spi.c	/^static int bma400_regmap_spi_read(void *context,$/;"	f	file:
+bma400_regmap_spi_write	bma400_spi.c	/^static int bma400_regmap_spi_write(void *context, const void *data,$/;"	f	file:
+bma400_sample_freq	bma400_core.c	/^struct bma400_sample_freq {$/;"	s	file:
+bma400_sample_freqs	bma400_core.c	/^static int bma400_sample_freqs[14];$/;"	v	file:
+bma400_scales	bma400_core.c	/^static int bma400_scales[8];$/;"	v	file:
+bma400_scan_masks	bma400_core.c	/^static const unsigned long bma400_scan_masks[] = {$/;"	v	file:
+bma400_set_accel_output_data_rate	bma400_core.c	/^static int bma400_set_accel_output_data_rate(struct bma400_data *data,$/;"	f	file:
+bma400_set_accel_oversampling_ratio	bma400_core.c	/^static int bma400_set_accel_oversampling_ratio(struct bma400_data *data,$/;"	f	file:
+bma400_set_accel_scale	bma400_core.c	/^static int bma400_set_accel_scale(struct bma400_data *data, unsigned int val)$/;"	f	file:
+bma400_set_power_mode	bma400_core.c	/^static int bma400_set_power_mode(struct bma400_data *data,$/;"	f	file:
+bma400_spi_driver	bma400_spi.c	/^module_spi_driver(bma400_spi_driver);$/;"	v
+bma400_spi_driver	bma400_spi.c	/^static struct spi_driver bma400_spi_driver = {$/;"	v	typeref:struct:spi_driver	file:
+bma400_spi_ids	bma400_spi.c	/^static const struct spi_device_id bma400_spi_ids[] = {$/;"	v	typeref:struct:spi_device_id	file:
+bma400_spi_probe	bma400_spi.c	/^static int bma400_spi_probe(struct spi_device *spi)$/;"	f	file:
+bma400_step_detect_event	bma400_core.c	/^static const struct iio_event_spec bma400_step_detect_event = {$/;"	v	typeref:struct:iio_event_spec	file:
+bma400_trigger_handler	bma400_core.c	/^static irqreturn_t bma400_trigger_handler(int irq, void *p)$/;"	f	file:
+bma400_trigger_ops	bma400_core.c	/^static const struct iio_trigger_ops bma400_trigger_ops = {$/;"	v	typeref:struct:iio_trigger_ops	file:
+bma400_write_raw	bma400_core.c	/^static int bma400_write_raw(struct iio_dev *indio_dev,$/;"	f	file:
+bma400_write_raw_get_fmt	bma400_core.c	/^static int bma400_write_raw_get_fmt(struct iio_dev *indio_dev,$/;"	f	file:
+buff	bma400_core.c	/^		__be16 buff[3];$/;"	m	struct:bma400_data::__anon1	file:
+buffer	bma400_core.c	/^	}buffer;$/;"	m	struct:bma400_data	typeref:struct:bma400_data::__anon1	file:
+dev	bma400_core.c	/^	struct device *dev;$/;"	m	struct:bma400_data	typeref:struct:bma400_data::device	file:
+event_timestamp	bma400_core.c	/^	s64 event_timestamp;$/;"	m	struct:bma400_data	file:
+hz	bma400_core.c	/^	int hz;$/;"	m	struct:bma400_sample_freq	file:
+iio_simple_dummy_read_event_config	bma400_core.c	/^int iio_simple_dummy_read_event_config(struct iio_dev *indio_dev,$/;"	f
+iio_simple_dummy_write_event_config	bma400_core.c	/^int iio_simple_dummy_write_event_config(struct iio_dev *indio_dev,$/;"	f
+mutex	bma400_core.c	/^	struct mutex mutex; \/* data register lock *\/$/;"	m	struct:bma400_data	typeref:struct:bma400_data::mutex	file:
+obj-m	Makefile	/^obj-m := bma400_core.o bma400_i2c.o bma400_spi.o$/;"	m
+orientation	bma400_core.c	/^	struct iio_mount_matrix orientation;$/;"	m	struct:bma400_data	typeref:struct:bma400_data::iio_mount_matrix	file:
+oversampling_ratio	bma400_core.c	/^	int oversampling_ratio;$/;"	m	struct:bma400_data	file:
+power_mode	bma400_core.c	/^	enum bma400_power_mode power_mode;$/;"	m	struct:bma400_data	typeref:enum:bma400_data::bma400_power_mode	file:
+regmap	bma400_core.c	/^	struct regmap *regmap;$/;"	m	struct:bma400_data	typeref:struct:bma400_data::regmap	file:
+regulators	bma400_core.c	/^	struct regulator_bulk_data regulators[BMA400_NUM_REGULATORS];$/;"	m	struct:bma400_data	typeref:struct:bma400_data::regulator_bulk_data	file:
+sample_freq	bma400_core.c	/^	struct bma400_sample_freq sample_freq;$/;"	m	struct:bma400_data	typeref:struct:bma400_data::bma400_sample_freq	file:
+scale	bma400_core.c	/^	int scale;$/;"	m	struct:bma400_data	file:
+steps_enabled	bma400_core.c	/^	int steps_enabled;$/;"	m	struct:bma400_data	file:
+temperature	bma400_core.c	/^		u8 temperature;$/;"	m	struct:bma400_data::__anon1	file:
+trig	bma400_core.c	/^	struct iio_trigger *trig;$/;"	m	struct:bma400_data	typeref:struct:bma400_data::iio_trigger	file:
+uhz	bma400_core.c	/^	int uhz;$/;"	m	struct:bma400_sample_freq	file:
