@@ -53,7 +53,7 @@
 #define BMA400_STEP_CNT1_REG        0x16
 #define BMA400_STEP_CNT3_REG        0x17
 #define BMA400_STEP_STAT_REG        0x18
-#define BMA400_STEP_INT_MSK	    BIT(0)
+
 /*
  * Read-write configuration registers
  */
@@ -61,14 +61,6 @@
 #define BMA400_ACC_CONFIG1_REG      0x1a
 #define BMA400_ACC_CONFIG2_REG      0x1b
 #define BMA400_CMD_REG              0x7e
-
-/* INT MAP */
-#define BMA400_INT_CONFIG0_REG      0x1f
-#define BMA400_INT_CONFIG1_REG      0x20
-#define BMA400_INT1_MAP_REG         0x21
-#define BMA400_INT12_MAP_REG	    0x23
-#define BMA400_INT_IO_CTRL_REG	    0x24
-#define BMA400_INT_DRDY_MSK	    BIT(7)
 
 /* Chip ID of BMA 400 devices found in the chip ID register. */
 #define BMA400_ID_REG_VAL           0x90
@@ -100,8 +92,8 @@
 
 extern const struct regmap_config bma400_regmap_config;
 
-int bma400_probe(struct device *dev, struct regmap *regmap, int irq, const char *name);
+int bma400_probe(struct device *dev, struct regmap *regmap, const char *name);
 
-//void bma400_remove(struct device *dev);
+void bma400_remove(struct device *dev);
 
 #endif
